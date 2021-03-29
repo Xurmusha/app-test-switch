@@ -1,0 +1,43 @@
+.sc-bdfBwQ{
+  .ant-switch{
+    width: 36px;
+    height: 17px;
+    background-color: rgba(181,181,181,1);
+    margin-top: 35px;
+    .ant-switch-handle{
+      position: relative;
+      &:before{
+        width: 24px;
+        height: 24px;
+        background-color: rgba(145,145,145,1);
+        border-radius: 50%;
+        position: absolute;
+        top: -6px;
+        left: -2px;
+      }
+
+
+    }
+    &-checked{
+      background-color: rgba(15,33,60,1);
+      transition-duration: 0.2s;
+      .ant-switch-handle{
+        &:before{
+          background-color: rgba(1,200,248,1);
+        }
+      }
+    }
+    .ant-switch-inner{
+      top: -32px;
+      position: absolute;
+      color: #040F20;
+      opacity: 0.13;
+      left: 0;
+      right: 0;
+      margin: auto;
+      font-size: 15px;
+      font-family: Montserrat, sans-serif;
+      line-height: 18px;
+    }
+  }
+}
